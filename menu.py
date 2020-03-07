@@ -6,9 +6,9 @@ master = Tk()
 master.title("Daftar Harga Makanan & Minuman")
 master.geometry('1280x720')
 master.resizable(0, 0)
-master.bg = PhotoImage(file ='background.gif')
+master.bg = PhotoImage(file ='img/background.gif')
 bg = Label(image=master.bg)
-master.wm_iconbitmap('icon.ico')
+master.wm_iconbitmap('img/icon.ico')
 bg.place(x=0,y=0)
 
 #list makanan
